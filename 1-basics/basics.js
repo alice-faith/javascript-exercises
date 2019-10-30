@@ -150,12 +150,12 @@ describe("basics", function() {
     describe("Set a property to undefined", function() {
         it("should run without errors", function() {
             const object = {
-                someProperty: undefined
+                someProperty: 1
             };
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+             object.someProperty = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
@@ -342,7 +342,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            object ["secondProperty"];
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back
