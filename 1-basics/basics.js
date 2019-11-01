@@ -286,8 +286,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-            const falsyNumber1 = 1;
-            const falsyNumber2 = 1;
+            const falsyNumber1 = 0;
+            const falsyNumber2 = NaN;
 
             ////////////////////////////////////////////////////////////////////
 
@@ -342,7 +342,7 @@ describe("basics", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            object ["secondProperty"];
+            propertyName = "firstProperty";
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back
