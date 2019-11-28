@@ -182,7 +182,10 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
+            function sortAlphabetically() {
+                return array.sort();
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(sortAlphabetically()).to.equal(array);
