@@ -233,6 +233,7 @@ describe("arrays", function() {
         });
     });
 
+    
     describe("Sort an array without mutating it", function() {
         it("should run without errors", function() {
             const array = [3, 1, 2];
@@ -242,9 +243,9 @@ describe("arrays", function() {
             // This is a common source of bugs because a lot of people
             // assume that .sort() creates a copy of an array.
             // You need to do that manually first.
-            // 🐛🛠 FIX THE BUG 🛠🐛
+            // ???? FIX THE BUG ????
             function sortWithoutMutation() {
-                return array.sort();
+                return array.slice().sort();
             }
             ////////////////////////////////////////////////////////////////////
 
