@@ -179,7 +179,10 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            
+            function toInteger(number){
+                return Number.parseInt(number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             expect(toInteger("0")).to.equal(0);
